@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html>
+  <html lang="{{ .Site.LanguageCode }}">
+  <head>
+  {{ partial "head.html" . }}
+</head>
+ 
+  <body>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -24,7 +29,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color:#34495E;
 }
 
 .hero-text button {
@@ -32,15 +37,15 @@ body, html {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+  color: #EAEDED;
+  background-color:#34495E ;
   text-align: center;
   cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color: #555;
-  color: white;
+  background-color: #F39C12;
+  color: #34495E;
 }
 </style>
 </head>
