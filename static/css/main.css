@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #EAEDED;
 }
 
 a {
@@ -41,12 +41,12 @@ img {
 .header {
   padding: 20px 0;
   position: relative;
-  background: #f5f5f5;
-  border-bottom: 1px solid #eaeaea;
+  background: #EAEDED;
+  border-bottom: 1px solid #EAEDED;
 }
 
 .nav {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
   text-align: right;
@@ -78,7 +78,7 @@ img {
 
 .nav-links li {
   display: inline-block;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 25px;
 }
 
 .nav-links li:first-child {
@@ -95,8 +95,8 @@ img {
 }
 
 .content {
-  max-width: 700px;
-  margin: 40px auto 10px;
+  max-width: 900px;
+  margin: 50px auto 10px;
   padding: 0 15px;
   font-size: 16px;
   line-height: 1.7;
@@ -155,7 +155,7 @@ img {
 .highlight {
   border-radius: 3px;
   position: relative;
-  margin: 40px 0;
+  margin: 50px 0;
   font-size: 14px;
 }
 
@@ -173,18 +173,18 @@ img {
 }
 
 .archive-title {
-  font-size: 32px;
-  margin-top: 60px;
+  font-size: 12px;
+  margin-top: 250px;
 }
 
 .archive-item {
-  margin: 5px 0 15px;
+  margin: 0px 0 10px;
   padding: 0;
 }
 
 .archive-item-date {
   color: #ccc;
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 0;
   margin-top: 5px;
   display: block;
@@ -218,8 +218,8 @@ img {
 }
 
 .footer-links li {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   display: inline-block;
 }
 
@@ -252,7 +252,7 @@ img {
 
 @media (min-width: 600px) {
   .header {
-    padding: 25px 0;
+    padding: 35px 10;
   }
 
   .nav-logo {
@@ -260,11 +260,11 @@ img {
   }
 
   .nav-logo img {
-    max-height: 50px;
+    max-height: 100px;
   }
 
   .nav-links {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   .nav-links li {
@@ -272,12 +272,12 @@ img {
   }
 
   .content {
-    font-size: 19px;
+    font-size: 29px;
     line-height: 1.8;
   }
 
   .highlight {
-    font-size: 16px;
+    font-size: 26px;
     margin: 40px -20px;
   }
 
@@ -286,11 +286,11 @@ img {
   }
 
   .archive-title {
-    font-size: 38px;
+    font-size: 48px;
   }
 
   .archive-item-date {
-    font-size: 19px;
+    font-size: 29px;
     text-align: right;
     float: right;
   }
