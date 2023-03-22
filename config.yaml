@@ -35,7 +35,7 @@ params:
     alt: Logo
     height: 50
     url: static/LOGO AMQ.jpg
-    width: 50
+    width: 70
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
