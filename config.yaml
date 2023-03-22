@@ -32,13 +32,15 @@ params:
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
   logo:
-    alt: Logo
+    alt: AMQ
     height: 50
-    url: static/LOGO AMQ.jpg
+    url: static/LOGO AMQ.png
     width: 70
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: yes
-      
+header:
+  image: "/static/banner1.jpg"
+  caption: "Yay! It works!"
